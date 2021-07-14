@@ -1,22 +1,44 @@
-baseURL = "https://olegk.dev/"
-languageCode = "en-us"
+baseurl = "https://olegk.dev"
 title = "Oleg Kovalov Homepage"
-
-# baseurl = "/"
-# languageCode = "en-us"
 theme = "hugo-coder"
-paginate = 5
+languageCode = "en-us"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+[blackfriday]
+    hrefTargetBlank = true
 
 [params]
+  author = "Oleg Kovalov"
+  info = "Senior Software Engineer"
+  description = "Oleg Kovalov Homepage"
+
+  keywords = "engineer,blog,developer,personal"
+  avatarurl = "images/ava-sammy.jpg"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  hidecredits = false
+  hidecopyright = false
+
+  rtl = false
+
+  math = true
+  custom_css = ["css/custom.css"]
+
+#[params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+  #contentTypeName = "posts"
 
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "orange"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  # showMenuItems = 2
 
   # show selector to switch language
   showLanguageSelector = false
@@ -40,37 +62,57 @@ paginate = 5
   # it's set to `true` by default
   # oneHeadingSize = false
 
-[params.twitter]
-  # set Twitter handles for Twitter cards
-  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-  # do not include @
-  creator = ""
-  site = ""
+[params.utteranc]
+  enable = true
+  repo = "cristaloleg/cristaoleg" ##Change to own
+  issueTerm = "pathname"
+  theme = "github-light"
 
-[languages]
-  [languages.en]
-    languageName = "English"
-    title = "Terminal"
-    subtitle = "A simple, retro theme for Hugo"
-    owner = ""
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
+# weight == index
+[[menu.main]]
+    weight = 1
+    name = "About"
+    url = "/about"
+[[menu.main]]
+    name = "Blog"
+    weight = 2
+    url  = "/posts"
+[[menu.main]]
+    weight = 3
+    name = "Projects"
+    url  = "/projects"
+[[menu.main]]
+    weight = 4
+    name = "Links"
+    url  = "/links"
 
-    [languages.en.params.logo]
-      logoText = "Terminal"
-      logoHomeLink = "/"
+# Social links
+[[params.social]]
+    name = "mail"
+    icon = "icon fa fa-envelope fa-4x"
+    hrefTargetBlank = true
+    url  = "mailto:oleg@hey.com"
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+[[params.social]]
+    name = "github"
+    icon = "icon fa fa-github fa-2x"
+    hrefTargetBlank = true
+    url  = "https://github.com/cristaloleg"
+
+[[params.social]]
+    name = "telegram"
+    icon = "icon fa fa-telegram fa-2x"
+    hrefTargetBlank = true
+    url  = "https://t.me/olegkovalov"
+
+[[params.social]]
+    name = "twitter"
+    icon = "icon fa fa-twitter fa-2x"
+    hrefTargetBlank = true
+    url  = "https://twitter.com/oleg_kovalov"
+
+[[params.social]]
+    name = "linkedin"
+    icon = "icon fa fa-linkedin fa-2x"
+    hrefTargetBlank = true
+    url  = "https://www.linkedin.com/in/olegkovalov"

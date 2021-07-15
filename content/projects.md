@@ -15,4 +15,4 @@ What I'm doing:
 - Youtube show with friends [Good reviewer - Bad reviewer](https://www.youtube.com/channel/UC8_A5W8g7UV0pk0uL66iQAQ)
 - Collecting good performance related material at Twitter [@go_perf](https://twitter.com/go_perf) and Telegram [@go_perf](https://t.me/go_perf).
 - Collecting IT related cheat sheets at Telegram [@techchsh](https://t.me/techchsh).
-- Private payed channel with posts at [@oleg_log_plus](https://t.me/oleg_log_plus).
+- Private paid channel with posts at [@oleg_log_plus](https://t.me/oleg_log_plus).

@@ -21,4 +21,4 @@ Have worked at:
 
 In a free time you can find me consuming and producing code & memes or walking with a dog.
 
-See [/blog](/blog), [/projects](/projects) and [/links](/links) for more.
+See [/posts](/posts), [/projects](/projects) and [/links](/links) for more.

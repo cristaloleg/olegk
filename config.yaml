@@ -1,4 +1,4 @@
-baseurl: "/"
+baseurl: "https://olegk.dev"
 title: "Oleg Kovalov homepage"
 theme: "PaperMod"
 languageCode: "en-us"
@@ -8,10 +8,29 @@ paginate: 20
 canonifyurls: true
 
 params:
+  profileMode:
+    enabled: true
+    title: "<Title>" # optional default will be site title
+    subtitle: "Senior Software Engineer @ Warsaw, Poland"
+    imageUrl: "https://olegk.dev/images/ava-sammy.jpg" # optional
+    imageTitle: "kek" # "<title of image as alt>" # optional
+    imageWidth: 240 # custom size
+    imageHeight: 240 # custom size
+    socialIcons:
+      - name: "email"
+        url: "mailto:oleg@hey.com"
+      - name: "github"
+        url: "https://github.com/cristaloleg"
+      - name: "telegram"
+        url : "https://t.me/olegkovalov"
+      - name: "twitter"
+        url : "https://twitter.com/oleg_kovalov"
+      - name: "linkedin"
+        url : "https://www.linkedin.com/in/olegkovalov"
+
   homeInfoParams:
     title: "Oleg Kovalov"
     content: "Senior Software Engineer"
-  sectionPagesMenu: "main"
 
   socialIcons:
     - name: "email"
@@ -35,9 +54,7 @@ params:
     - name: "Links"
       url : "/links"
 
-# weight == index
-
-  # defaultTheme: auto
+  sectionPagesMenu: "main"
   author: "Oleg Kovalov"
   info: "Kek"
   description: "Oleg Kovalov Homepage"

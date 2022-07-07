@@ -1,4 +1,4 @@
-baseurl: "https://olegk.dev"
+# baseurl: "https://olegk.dev"
 title: "Oleg Kovalov homepage"
 theme: "PaperMod"
 languageCode: "en-us"

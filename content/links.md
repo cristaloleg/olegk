@@ -1,7 +1,9 @@
-+++
-title = "Links"
-slug = "links"
-+++
+---
+title: "Links"
+slug: "links"
+menu: "main"
+author: [""]
+---
 
 Where you can find me:
 

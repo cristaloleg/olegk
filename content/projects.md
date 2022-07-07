@@ -1,7 +1,9 @@
-+++
-title = "Projects"
-slug = "projects"
-+++
+---
+title: "Projects"
+slug: "projects"
+menu: "main"
+author: [""]
+---
 
 What I'm doing:
 

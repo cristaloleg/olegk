@@ -1,7 +1,9 @@
-+++
-title = "About"
-slug = "about"
-+++
+---
+title: "About"
+slug: "about"
+menu: "main"
+author: [""]
+---
 
 Hi, I'm Oleg Kovalov, a software engineer from Warsaw, Poland.
 

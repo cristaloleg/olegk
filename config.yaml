@@ -54,6 +54,8 @@ params:
     - name: "Links"
       url : "/links"
 
+  assets:
+    disableFingerprinting: true
   sectionPagesMenu: "main"
   author: "Oleg Kovalov"
   info: "Kek"
